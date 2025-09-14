@@ -25,25 +25,31 @@ result = min(numbers)
 numbers.append(10)
 letters.append("abc")
 
+print(numbers)
+print(letters)
+
 numbers.insert(4, 85)
 letters.insert(2, "xyz")
 
-numbers.pop() # index
-letters.pop(3)
+print(numbers)
+print(letters)
 
-numbers.remove(3) # value
-letters.remove("b")
+# numbers.pop() # index
+# letters.pop(3)
 
-numbers.sort()
-letters.sort()
+# numbers.remove(3) # value
+# letters.remove("b")
 
-numbers.reverse()
-letters.reverse()
+# numbers.sort()
+# letters.sort()
 
-result = numbers.count(5)
-result = letters.count("a")
+# numbers.reverse()
+# letters.reverse()
 
-numbers.clear()
-letters.clear()
+# result = numbers.count(5)
+# result = letters.count("a")
 
-print("Result:", letters)
+# numbers.clear()
+# letters.clear()
+
+# print("Result:", letters)
