@@ -21,12 +21,12 @@
 
 #-------------------------------------------------------
 
-# myString = "Gadashov Ali"
+myString = "Gadashov Ali"
 
-# myList = []
+myList = []
 
-# for letter in myString:
-#     print(letter)
+for letter in myString:
+    print(letter)
 
-# myList = [letter for letter in myString]
-# print(myString)
+myList = [letter for letter in myString]
+print(myString)
